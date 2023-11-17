@@ -1,12 +1,29 @@
 body {
     padding: 0;
     margin: 0;
-    background: linear-gradient(to left, #1E90FF ,#6A5ACD);
+    background: linear-gradient(to left, #66FFB2 ,#6A5ACD);
+    display: flex;
+    min-height: 100vh;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
 }
 
 *, *::before,*::after {
     box-sizing: border-box;
-    font-size: medium;
+    font-size: 35px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bolder;
+    border-radius: 10px;
+    border: white;
+}
+
+.Calculator-Screen {
+    background-color: white;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    font-size: 50px;
+    
 }
